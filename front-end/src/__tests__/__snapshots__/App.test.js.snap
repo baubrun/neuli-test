@@ -1,0 +1,97 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App should match snapshot 1`] = `
+<div>
+  <div
+    class="App"
+  >
+    <header
+      class="Simple page"
+    >
+      <form
+        class=""
+      >
+        <div
+          class="form-group"
+        >
+          <label
+            class="form-label"
+            for="formBasicUser1"
+          >
+            User # 1
+          </label>
+          <input
+            class="form-control"
+            id="formBasicUser1"
+            max="10"
+            min="1"
+            name="var1"
+            placeholder="x"
+            type="number"
+            value=""
+          />
+        </div>
+        <div
+          class="form-group"
+        >
+          <label
+            class="form-label"
+            for="formBasicUser2"
+          >
+            User # 2
+          </label>
+          <input
+            class="form-control"
+            id="formBasicUser2"
+            max="10"
+            min="1"
+            name="var2"
+            placeholder="y"
+            type="number"
+            value=""
+          />
+        </div>
+        <div
+          class="form-group"
+        >
+          <div
+            class="form-check"
+          >
+            <input
+              class="form-check-input"
+              id="formBasicCheckbox"
+              type="checkbox"
+            />
+            <label
+              class="form-check-label"
+              for="formBasicCheckbox"
+              title=""
+            >
+              Check me out
+            </label>
+          </div>
+        </div>
+        <button
+          class="btn btn-primary"
+          type="submit"
+        >
+          Get Users info
+        </button>
+      </form>
+      <form
+        class=""
+      >
+        <div
+          class="form-group"
+        >
+          <small
+            class="form-text"
+          >
+             
+          </small>
+        </div>
+      </form>
+    </header>
+  </div>
+</div>
+`;

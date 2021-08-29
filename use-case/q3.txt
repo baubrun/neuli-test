@@ -1,0 +1,37 @@
+Question 3 : Cas d'utilisation
+Cette question est une question à développement. Pour y répondre, inscrivez dans un chier
+texte, nommé question3.txt ou question3.docx, les étapes que vous suivriez pour résoudre
+le problème.
+Vous êtes un(e) dévellopeur(euse) en charge de la maintenance d'une application web composé d'un frontend
+en NodeJS et d'un backend hybride en NodeJS,PHP et Python suivant l'architecture suivante :
+Backend : NodeJs (Gateway et fonctions de connexion) -> PHP (Fonctions d'interaction avec les bases de
+données) -> Python (Fonctions d'analytiques).
+Un jour, votre superviseur vous demande de se débarraser du serveur PHP, citant des fautes de sécurités,
+et de recréer ses fonctions soit dans le serveur NodeJS ou le serveur Python, selon votre choix.
+Quelle serait votre approche, décrites en étapes, pour réaliser ce projet, an d'assurer les points suivants ?
+(Veuillez prendre note dans ce scénario que vous n'avez pas de limitations sur les facteurs de temps et
+d'outils technologiques à votre disposition.)
+
+----------------
+Réponse
+
+- Qualité
+    - utiliser un linter
+    - utiliser des docstrings
+    - utiliser une structure maintenable et évolutif
+    - tester sur différentes plates-formes
+
+- Robustesse
+    - presenter des messages d'erreur
+    - validation des données entrantes
+    - tests d'intégration
+    - tests unitaires
+    - tests de bout en bout
+
+- Assurance de la qualité de transition
+    - tester les états et leurs transitions
+
+- Stabilité du code
+    - tester la charge et comparer la performance
+       
+   
